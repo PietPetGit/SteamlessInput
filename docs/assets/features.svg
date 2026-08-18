@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="SteamlessInput feature grid">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050B18"/><stop offset="100%" stop-color="#06203A"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12233F" stop-opacity="0.95"/><stop offset="100%" stop-color="#0B1729" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#0A7FB0"/>
+    </linearGradient>
+    <style>
+      .t { font-family: "Segoe UI", Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+      .h { font-size: 21px; font-weight: 700; fill: #FFFFFF; }
+      .b { font-size: 14.5px; fill: #9FB4CE; }
+      .ic { font-size: 26px; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="760" rx="18" fill="url(#fbg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="759" rx="18" fill="none" stroke="#38BDF8" stroke-opacity="0.22"/>
+
+  <text class="t" x="48" y="66" font-size="30" font-weight="700" fill="#FFFFFF">What it does</text>
+  <text class="t" x="48" y="94" font-size="15" fill="#7FD3F7">One tray app. No Steam client, no library, no account.</text>
+  <line x1="48" y1="116" x2="1232" y2="116" stroke="#38BDF8" stroke-opacity="0.2"/>
+
+  <!-- row 1 -->
+  <g transform="translate(48,144)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">⌨️</text>
+    <text class="t h" x="66" y="56">On-screen keyboard</text>
+    <text class="t b" x="26" y="90">Steam's keyboard rebuilt: skins, key sounds,</text>
+    <text class="t b" x="26" y="112">per-app memory, 4K/TV-aware sizing.</text>
+    <text class="t b" x="26" y="134">Type with trackpads, sticks, gyro or mouse —</text>
+    <text class="t b" x="26" y="156">or with both thumbs at once.</text>
+  </g>
+  <g transform="translate(452,144)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">🖐️</text>
+    <text class="t h" x="66" y="56">Split Keyboard</text>
+    <text class="t b" x="26" y="90">Two halves pinned to the screen edges,</text>
+    <text class="t b" x="26" y="112">one per trackpad — neither thumb has to</text>
+    <text class="t b" x="26" y="134">reach across the pad. Plus Swipe Typing,</text>
+    <text class="t b" x="26" y="156">Touch Typing and Release-To-Type.</text>
+  </g>
+  <g transform="translate(856,144)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">🌍</text>
+    <text class="t h" x="66" y="56">Hold For Accents</text>
+    <text class="t b" x="26" y="90">Hold a letter for a row of its accented</text>
+    <text class="t b" x="26" y="112">forms — 25 languages. Layouts: QWERTY,</text>
+    <text class="t b" x="26" y="134">phone-style, and a 75% board with F1–F12,</text>
+    <text class="t b" x="26" y="156">arrows and a hold-and-drag Select key.</text>
+  </g>
+
+  <!-- row 2 -->
+  <g transform="translate(48,344)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">✌️</text>
+    <text class="t h" x="66" y="56">Trackpad gestures</text>
+    <text class="t b" x="26" y="90">Laptop / wheel / smooth scrolling,</text>
+    <text class="t b" x="26" y="112">tap-to-click, Pinch To Zoom, Swipe Between</text>
+    <text class="t b" x="26" y="134">Pages, Text Wheel Selection and YouTube</text>
+    <text class="t b" x="26" y="156">timeline scrubbing with haptic detents.</text>
+  </g>
+  <g transform="translate(452,344)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">🎯</text>
+    <text class="t h" x="66" y="56">Gyro to mouse</text>
+    <text class="t b" x="26" y="90">Steam-style tuning: dots-per-360°,</text>
+    <text class="t b" x="26" y="112">acceleration, deadzone, hold-or-toggle</text>
+    <text class="t b" x="26" y="134">hotkeys. Gyro To Type recenters from a</text>
+    <text class="t b" x="26" y="156">stick-click chord, no binding needed.</text>
+  </g>
+  <g transform="translate(856,344)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">🎮</text>
+    <text class="t h" x="66" y="56">Gamepad mode</text>
+    <text class="t b" x="26" y="90">Any pad becomes a virtual Xbox 360 pad</text>
+    <text class="t b" x="26" y="112">(ViGEm / uinput), with lower latency than</text>
+    <text class="t b" x="26" y="134">SISR and VIIPER — and a separate XInput</text>
+    <text class="t b" x="26" y="156">slot per controller, so two pads = two players.</text>
+  </g>
+
+  <!-- row 3 -->
+  <g transform="translate(48,544)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">🕹️</text>
+    <text class="t h" x="66" y="56">Virtual Menus</text>
+    <text class="t b" x="26" y="90">Touch, radial and hotbar menus on the</text>
+    <text class="t b" x="26" y="112">trackpads, with an editor, a live preview</text>
+    <text class="t b" x="26" y="134">and 435 Steam icons. Advanced Presses add</text>
+    <text class="t b" x="26" y="156">long / double / soft-pull / mode-shift actions.</text>
+  </g>
+  <g transform="translate(452,544)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">📺</text>
+    <text class="t h" x="66" y="56">Living-room automation</text>
+    <text class="t b" x="26" y="90">Big Picture can switch TV display and audio,</text>
+    <text class="t b" x="26" y="112">turn HDR on, kill Night Light, pause media</text>
+    <text class="t b" x="26" y="134">and hide the cursor — then put every one</text>
+    <text class="t b" x="26" y="156">of them back when you close it.</text>
+  </g>
+  <g transform="translate(856,544)">
+    <rect width="376" height="176" rx="14" fill="url(#card)" stroke="#38BDF8" stroke-opacity="0.28"/>
+    <rect width="376" height="3" rx="2" fill="url(#accent)"/>
+    <text class="t ic" x="26" y="56">📥</text>
+    <text class="t h" x="66" y="56">Community Configs</text>
+    <text class="t b" x="26" y="90">Import community Steam Input layouts</text>
+    <text class="t b" x="26" y="112">straight from SteamInputDB or a local .vdf.</text>
+    <text class="t b" x="26" y="134">Per-controller profile slots you can cycle</text>
+    <text class="t b" x="26" y="156">from a chord, all from a couch-friendly GUI.</text>
+  </g>
+</svg>

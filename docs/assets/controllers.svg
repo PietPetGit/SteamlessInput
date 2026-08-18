@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 748" width="1080" height="748" role="img" aria-label="Supported controllers, their driver, and whether trackpads and gyro are supported">
+  <defs>
+    <linearGradient id="cbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#050B18"/><stop offset="100%" stop-color="#051D33"/>
+    </linearGradient>
+    <style>
+      .t { font-family: "Segoe UI", Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+      .n { font-size: 15px; fill: #DCE9F8; }
+      .hd { font-size: 12.5px; font-weight: 700; fill: #7FD3F7; letter-spacing: 1.2px; }
+      .y { font-size: 16px; fill: #4ADE80; font-weight: 700; }
+      .no { font-size: 15px; fill: #35496A; }
+      .tag { font-size: 11.5px; font-weight: 700; }
+    </style>
+  </defs>
+
+  <rect width="1080" height="748" rx="18" fill="url(#cbg)"/>
+  <rect x="0.5" y="0.5" width="1079" height="747" rx="18" fill="none" stroke="#38BDF8" stroke-opacity="0.22"/>
+
+  <text class="t" x="40" y="54" font-size="27" font-weight="700" fill="#FFFFFF">Supported controllers</text>
+  <text class="t" x="40" y="80" font-size="14" fill="#8FA3BF">Every pad gets its own GUI page, with the right button labels and glyphs.</text>
+
+  <!-- header row -->
+  <g class="t">
+    <text class="hd" x="40" y="122">CONTROLLER</text>
+    <text class="hd" x="700" y="122" text-anchor="middle">DRIVER</text>
+    <text class="hd" x="840" y="122" text-anchor="middle">TRACKPADS</text>
+    <text class="hd" x="985" y="122" text-anchor="middle">GYRO</text>
+    <line x1="40" y1="136" x2="1040" y2="136" stroke="#38BDF8" stroke-opacity="0.3"/>
+  </g>
+
+  <g class="t">
+    <!-- HID group -->
+    <g transform="translate(0,160)">
+      <rect x="40" y="-14" width="1000" height="122" rx="10" fill="#0A7FB0" fill-opacity="0.10"/>
+      <text class="n" x="56" y="14">Steam Controller (2026)</text>
+      <g transform="translate(668,0)"><rect width="64" height="21" y="-2" rx="10" fill="#0A7FB0" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.6"/><text class="tag" x="32" y="13" text-anchor="middle" fill="#BEE9FF">HID</text></g>
+      <text class="y" x="840" y="14" text-anchor="middle">✔</text><text class="y" x="985" y="14" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="52">Steam Controller (2015)</text>
+      <g transform="translate(668,38)"><rect width="64" height="21" y="-2" rx="10" fill="#0A7FB0" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.6"/><text class="tag" x="32" y="13" text-anchor="middle" fill="#BEE9FF">HID</text></g>
+      <text class="y" x="840" y="52" text-anchor="middle">✔</text><text class="y" x="985" y="52" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="90">Steam Deck (built-in)<tspan fill="#8FA3BF" font-size="12.5">   Windows</tspan></text>
+      <g transform="translate(668,76)"><rect width="64" height="21" y="-2" rx="10" fill="#0A7FB0" fill-opacity="0.35" stroke="#38BDF8" stroke-opacity="0.6"/><text class="tag" x="32" y="13" text-anchor="middle" fill="#BEE9FF">HID</text></g>
+      <text class="y" x="840" y="90" text-anchor="middle">✔</text><text class="y" x="985" y="90" text-anchor="middle">✔</text>
+    </g>
+
+    <!-- SDL group -->
+    <g transform="translate(0,306)">
+      <text class="n" x="56" y="0">Xbox Controller</text>
+      <g transform="translate(668,-14)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="0" text-anchor="middle">—</text><text class="no" x="985" y="0" text-anchor="middle">—</text>
+
+      <text class="n" x="56" y="36">DualSense (PS5)</text>
+      <g transform="translate(668,22)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="36" text-anchor="middle">—</text><text class="y" x="985" y="36" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="72">DualShock 4 (PS4)</text>
+      <g transform="translate(668,58)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="72" text-anchor="middle">—</text><text class="y" x="985" y="72" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="108">Switch Pro Controller</text>
+      <g transform="translate(668,94)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="108" text-anchor="middle">—</text><text class="y" x="985" y="108" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="144">Switch 2 Pro Controller<tspan fill="#8FA3BF" font-size="12.5">   USB-C on Windows</tspan></text>
+      <g transform="translate(668,130)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="144" text-anchor="middle">—</text><text class="y" x="985" y="144" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="180">Joy-Con — as a pair, or each half alone</text>
+      <g transform="translate(668,166)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="180" text-anchor="middle">—</text><text class="y" x="985" y="180" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="216">Joy-Con 2 — as a pair, or each half alone</text>
+      <g transform="translate(668,202)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="216" text-anchor="middle">—</text><text class="y" x="985" y="216" text-anchor="middle">✔</text>
+
+      <text class="n" x="56" y="252">NSO SNES / NES / N64 / Genesis</text>
+      <g transform="translate(668,238)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="252" text-anchor="middle">—</text><text class="no" x="985" y="252" text-anchor="middle">—</text>
+
+      <text class="n" x="56" y="288">GameCube Controller</text>
+      <g transform="translate(668,274)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="288" text-anchor="middle">—</text><text class="no" x="985" y="288" text-anchor="middle">—</text>
+
+      <text class="n" x="56" y="324">ROG Ally · Legion Go · MSI Claw</text>
+      <g transform="translate(668,310)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="324" text-anchor="middle">—</text><text class="no" x="985" y="324" text-anchor="middle">—</text>
+
+      <text class="n" x="56" y="360">GPD Win · OneXPlayer · AYANEO · 8BitDo</text>
+      <g transform="translate(668,346)"><rect width="64" height="21" rx="10" fill="#1A2B47" stroke="#38BDF8" stroke-opacity="0.3"/><text class="tag" x="32" y="14" text-anchor="middle" fill="#9FB4CE">SDL</text></g>
+      <text class="no" x="840" y="360" text-anchor="middle">—</text><text class="no" x="985" y="360" text-anchor="middle">—</text>
+    </g>
+  </g>
+
+  <line x1="40" y1="692" x2="1040" y2="692" stroke="#38BDF8" stroke-opacity="0.25"/>
+  <g class="t" transform="translate(40,722)">
+    <text font-size="13" fill="#8FA3BF">Any other SDL gamepad works too. Controller missing? Open an issue — adding one is mostly a label and glyph table.</text>
+  </g>
+</svg>

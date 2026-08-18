@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="1280" height="300" role="img" aria-label="Three-step install: download the release, run the setup wizard, tick what you want">
+  <defs>
+    <linearGradient id="ibg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#050B18"/><stop offset="100%" stop-color="#06243C"/>
+    </linearGradient>
+    <linearGradient id="num" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#38BDF8"/><stop offset="100%" stop-color="#0A7FB0"/>
+    </linearGradient>
+    <marker id="ia" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#38BDF8" fill-opacity="0.8"/>
+    </marker>
+    <style>
+      .t { font-family: "Segoe UI", Inter, system-ui, -apple-system, Roboto, Helvetica, Arial, sans-serif; }
+      .h { font-size: 19px; font-weight: 700; fill: #FFFFFF; }
+      .b { font-size: 13.5px; fill: #9FB4CE; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="300" rx="18" fill="url(#ibg)"/>
+  <rect x="0.5" y="0.5" width="1279" height="299" rx="18" fill="none" stroke="#38BDF8" stroke-opacity="0.22"/>
+  <text class="t" x="44" y="50" font-size="25" font-weight="700" fill="#FFFFFF">Installing takes three steps</text>
+
+  <g class="t">
+    <g transform="translate(44,86)">
+      <rect width="356" height="176" rx="14" fill="#0B1729" stroke="#38BDF8" stroke-opacity="0.3"/>
+      <circle cx="42" cy="46" r="22" fill="url(#num)"/>
+      <text x="42" y="54" text-anchor="middle" font-size="22" font-weight="700" fill="#04121F">1</text>
+      <text class="h" x="78" y="53">Download</text>
+      <text class="b" x="24" y="96">Grab the release package from the</text>
+      <text class="b" x="24" y="118">Releases page and unpack it anywhere.</text>
+      <text class="b" x="24" y="146" fill="#7FD3F7">Windows · Linux · portable, no install needed</text>
+    </g>
+
+    <g transform="translate(462,86)">
+      <rect width="356" height="176" rx="14" fill="#0B1729" stroke="#38BDF8" stroke-opacity="0.3"/>
+      <circle cx="42" cy="46" r="22" fill="url(#num)"/>
+      <text x="42" y="54" text-anchor="middle" font-size="22" font-weight="700" fill="#04121F">2</text>
+      <text class="h" x="78" y="53">Run the wizard</text>
+      <text class="b" x="24" y="96">Start SteamlessInput-Setup. It asks where</text>
+      <text class="b" x="24" y="118">the app goes and what else you want.</text>
+      <text class="b" x="24" y="146" fill="#7FD3F7">One UAC prompt, batched and announced</text>
+    </g>
+
+    <g transform="translate(880,86)">
+      <rect width="356" height="176" rx="14" fill="#0B1729" stroke="#38BDF8" stroke-opacity="0.3"/>
+      <circle cx="42" cy="46" r="22" fill="url(#num)"/>
+      <text x="42" y="54" text-anchor="middle" font-size="22" font-weight="700" fill="#04121F">3</text>
+      <text class="h" x="78" y="53">Tick what you want</text>
+      <text class="b" x="24" y="96">ViGEmBus for gamepad mode, HidHide for</text>
+      <text class="b" x="24" y="118">Nintendo pads, autostart, shortcuts…</text>
+      <text class="b" x="24" y="146" fill="#7FD3F7">Nothing else on your PC is touched</text>
+    </g>
+
+    <line x1="406" y1="174" x2="456" y2="174" stroke="#38BDF8" stroke-opacity="0.8" stroke-width="2" marker-end="url(#ia)"/>
+    <line x1="824" y1="174" x2="874" y2="174" stroke="#38BDF8" stroke-opacity="0.8" stroke-width="2" marker-end="url(#ia)"/>
+  </g>
+</svg>

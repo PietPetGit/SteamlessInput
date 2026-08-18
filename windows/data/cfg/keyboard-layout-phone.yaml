@@ -1,0 +1,169 @@
+---
+# Phone (Android / Gboard) layout  three pages, selected by Options ->
+# Keyboard -> "Keyboard Layout".
+#
+#   abc   the letter page          ?123 -> sym1
+#   sym1  symbols page 1           =\<  -> sym2      ABC -> abc
+#   sym2  symbols page 2           ?123 -> sym1      ABC -> abc
+#
+# GEOMETRY. Every row's weights total exactly 10, so all five rows share one
+# column grid. That is deliberate and load-bearing, not tidiness: each trackpad
+# reaches ~55% of the keyboard width from its own side (see _PAD_REACH_PX in
+# adusk/controller.py), and a uniform 10-unit grid is what makes that reach
+# land on the intended key boundaries  left pad: 1-5 / Q-T / A-G / Shift-V,
+# right pad: 5-0 / T-P / G-L / V-Backspace, overlapping in the middle column.
+# Changing a width_weight here silently changes which keys each thumb can
+# reach, so keep every row summing to 10.
+#
+# `hint` is the small grey symbol in a letter key's top-right corner  the
+# character that key long-presses to on Android. It is a LABEL ONLY; the
+# symbols themselves live on the sym1/sym2 pages. It cannot be expressed as
+# `shifted`, because the renderer treats a single-letter key's shifted form as
+# its capital.
+#
+# `text` types a literal character instead of a keycode. The symbol pages need
+# it: KEY_2 only produces '@' while Shift happens to be held, and 'PI'/'√'/'™'
+# have no keysym at all. See vkb._make_text_callback / Keyboard.type_text.
+pages:
+
+  # --------------------------------------------------------------- abc -----
+  abc:
+  - - {label: "1", keycode: KEY_1}
+    - {label: "2", keycode: KEY_2}
+    - {label: "3", keycode: KEY_3}
+    - {label: "4", keycode: KEY_4}
+    - {label: "5", keycode: KEY_5}
+    - {label: "6", keycode: KEY_6}
+    - {label: "7", keycode: KEY_7}
+    - {label: "8", keycode: KEY_8}
+    - {label: "9", keycode: KEY_9}
+    - {label: "0", keycode: KEY_0}
+
+  - - {label: "q", shifted: "Q", keycode: KEY_Q, hint: "%"}
+    - {label: "w", shifted: "W", keycode: KEY_W, hint: "\\"}
+    - {label: "e", shifted: "E", keycode: KEY_E, hint: "|"}
+    - {label: "r", shifted: "R", keycode: KEY_R, hint: "="}
+    - {label: "t", shifted: "T", keycode: KEY_T, hint: "["}
+    - {label: "y", shifted: "Y", keycode: KEY_Y, hint: "]"}
+    - {label: "u", shifted: "U", keycode: KEY_U, hint: "<"}
+    - {label: "i", shifted: "I", keycode: KEY_I, hint: ">"}
+    - {label: "o", shifted: "O", keycode: KEY_O, hint: "{"}
+    - {label: "p", shifted: "P", keycode: KEY_P, hint: "}"}
+
+  # Inset half a key at each end, exactly as the phone draws it. The spacers
+  # only reserve width: they render as nothing and the cursor steps over them.
+  - - {spacer: true, width_weight: 0.5}
+    - {label: "a", shifted: "A", keycode: KEY_A, hint: "@"}
+    - {label: "s", shifted: "S", keycode: KEY_S, hint: "#"}
+    - {label: "d", shifted: "D", keycode: KEY_D, hint: "$"}
+    - {label: "f", shifted: "F", keycode: KEY_F, hint: "_"}
+    - {label: "g", shifted: "G", keycode: KEY_G, hint: "&"}
+    - {label: "h", shifted: "H", keycode: KEY_H, hint: "-"}
+    - {label: "j", shifted: "J", keycode: KEY_J, hint: "+"}
+    - {label: "k", shifted: "K", keycode: KEY_K, hint: "("}
+    - {label: "l", shifted: "L", keycode: KEY_L, hint: ")"}
+    - {spacer: true, width_weight: 0.5}
+
+  # `hold` is the phone's long-press: tap Shift to latch it, HOLD it to open
+  # the symbol page  the same place ?123 goes. Bound to the on-screen key, not
+  # the physical Shift button, because holding that IS how capitals are typed.
+  - - {label: "Shift", behavior: shift, hold: "page:sym1", keycode: KEY_LEFTSHIFT, width_weight: 1.5, modifier: true, align: left, glyph: glyph_l2.png, valign: bottom, font_size: 15}
+    - {label: "z", shifted: "Z", keycode: KEY_Z, hint: "*"}
+    - {label: "x", shifted: "X", keycode: KEY_X, hint: "\""}
+    - {label: "c", shifted: "C", keycode: KEY_C, hint: "'"}
+    - {label: "v", shifted: "V", keycode: KEY_V, hint: ":"}
+    - {label: "b", shifted: "B", keycode: KEY_B, hint: ";"}
+    - {label: "n", shifted: "N", keycode: KEY_N, hint: "!"}
+    - {label: "m", shifted: "M", keycode: KEY_M, hint: "?"}
+    - {label: "", keycode: KEY_BACKSPACE, width_weight: 1.5, modifier: true, glyph: glyph_x.png, glyph_valign: center}
+
+  - - {label: "?123", behavior: "page:sym1", width_weight: 1.5, modifier: true, font_size: 16}
+    - {label: ",", keycode: KEY_COMMA, legacy_label_pos: true}
+    - {label: "", behavior: emoji, modifier: true, glyph: glyph_smiley.png}
+    - {label: "", keycode: KEY_SPACE, width_weight: 4.0, align: left, glyph: glyph_y.png}
+    - {label: ".", keycode: KEY_DOT, legacy_label_pos: true}
+    - {label: "", keycode: KEY_ENTER, width_weight: 1.5, modifier: true, glyph: sc_r2_md.png, glyph_valign: center}
+
+  # -------------------------------------------------------------- sym1 -----
+  sym1:
+  - - {label: "1", keycode: KEY_1}
+    - {label: "2", keycode: KEY_2}
+    - {label: "3", keycode: KEY_3}
+    - {label: "4", keycode: KEY_4}
+    - {label: "5", keycode: KEY_5}
+    - {label: "6", keycode: KEY_6}
+    - {label: "7", keycode: KEY_7}
+    - {label: "8", keycode: KEY_8}
+    - {label: "9", keycode: KEY_9}
+    - {label: "0", keycode: KEY_0}
+
+  - - {label: "@", text: "@"}
+    - {label: "#", text: "#"}
+    - {label: "$", text: "$"}
+    - {label: "_", text: "_"}
+    - {label: "&", text: "&"}
+    - {label: "-", text: "-"}
+    - {label: "+", text: "+"}
+    - {label: "(", text: "("}
+    - {label: ")", text: ")"}
+    - {label: "/", text: "/"}
+
+  - - {label: "=\\<", behavior: "page:sym2", width_weight: 1.5, modifier: true, font_size: 16}
+    - {label: "*", text: "*"}
+    - {label: "\"", text: "\""}
+    - {label: "'", text: "'"}
+    - {label: ":", text: ":"}
+    - {label: ";", text: ";"}
+    - {label: "!", text: "!"}
+    - {label: "?", text: "?"}
+    - {label: "", keycode: KEY_BACKSPACE, width_weight: 1.5, modifier: true, glyph: glyph_x.png, glyph_valign: center}
+
+  - - {label: "ABC", behavior: "page:abc", width_weight: 1.5, modifier: true, font_size: 16}
+    - {label: ",", keycode: KEY_COMMA, legacy_label_pos: true}
+    - {label: "", behavior: emoji, modifier: true, glyph: glyph_smiley.png}
+    - {label: "", keycode: KEY_SPACE, width_weight: 4.0, align: left, glyph: glyph_y.png}
+    - {label: ".", keycode: KEY_DOT, legacy_label_pos: true}
+    - {label: "", keycode: KEY_ENTER, width_weight: 1.5, modifier: true, glyph: sc_r2_md.png, glyph_valign: center}
+
+  # -------------------------------------------------------------- sym2 -----
+  # Typographic symbols with no keysym on any layout  these only work because
+  # `text` injects the character itself (Unicode) rather than a key code.
+  sym2:
+  - - {label: "~", text: "~"}
+    - {label: "`", text: "`"}
+    - {label: "|", text: "|"}
+    - {label: "•", text: "•"}
+    - {label: "√", text: "√"}
+    - {label: "π", text: "π"}
+    - {label: "÷", text: "÷"}
+    - {label: "×", text: "×"}
+    - {label: "§", text: "§"}
+    - {label: "Δ", text: "Δ"}
+
+  - - {label: "£", text: "£"}
+    - {label: "¢", text: "¢"}
+    - {label: "€", text: "€"}
+    - {label: "¥", text: "¥"}
+    - {label: "^", text: "^"}
+    - {label: "°", text: "°"}
+    - {label: "=", text: "="}
+    - {label: "{", text: "{"}
+    - {label: "}", text: "}"}
+    - {label: "\\", text: "\\"}
+
+  - - {label: "?123", behavior: "page:sym1", width_weight: 1.5, modifier: true, font_size: 16}
+    - {label: "%", text: "%"}
+    - {label: "©", text: "©"}
+    - {label: "®", text: "®"}
+    - {label: "™", text: "™"}
+    - {label: "✓", text: "✓"}
+    - {label: "[", text: "["}
+    - {label: "]", text: "]"}
+    - {label: "", keycode: KEY_BACKSPACE, width_weight: 1.5, modifier: true, glyph: glyph_x.png, glyph_valign: center}
+
+  - - {label: "ABC", behavior: "page:abc", width_weight: 1.5, modifier: true, font_size: 16}
+    - {label: "<", text: "<"}
+    - {label: "", behavior: emoji, modifier: true, glyph: glyph_smiley.png}
+    - {label: "", keycode: KEY_SPACE, width_weight: 4.0, align: left, glyph: glyph_y.png}
+    - {label: ">", text: ">"}
+    - {label: "", keycode: KEY_ENTER, width_weight: 1.5, modifier: true, glyph: sc_r2_md.png, glyph_valign: center}
