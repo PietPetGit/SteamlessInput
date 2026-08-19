@@ -10,14 +10,6 @@
   </picture>
 </p>
 
-<p align="center">
-  <sub>
-    <a href="docs/assets/showcase-1-desktop.png">Desktop layout</a> ·
-    <a href="docs/assets/showcase-2-virtual-menus.png">Virtual menus</a> ·
-    <a href="docs/assets/showcase-3-keyboard.png">On-screen keyboard</a>
-  </sub>
-</p>
-
 # SteamlessInput
 
 An open-source, "easier" to use Steam Input that turns any gamepad into a Steam Controller with improved PC Controls, Virtual Keyboard, Trackpad Gestures, and customizable Virtual Menus without Steam running! Plus tools to configure Steam & Big Picture for couch-console gaming.
