@@ -1,0 +1,3 @@
+
+# Raw window grabs feeding docs/tools/compose.py (inputs, not published assets)
+docs/tools/_raw/
