@@ -20,18 +20,11 @@ it runs as a small tray app with no Steam client, no game library and no account
 
 Some things it's trying to be:
 
-1. **Easier to use.** Steam Input is enormously powerful and enormously fiddly.
-   Here the settings sit on one page
-2. **A home for experiments.** Trackpad gestures, gyro typing, swipe typing,
-   virtual menus like a streamdeck, pinch-to-zoom, timeline scrubbing
-3. **Your living-room setup.** tools to configure Steam & Big Picture for couch-console gaming, console like power management
-   Steam launch settings, Big Picture automation can switch your TV display
-  and audio output, turn HDR on, kill Night Light, pause media and hide the
-  cursor, insane quality of life settings for gamers.
-5. **turns any gamepad into a Steam Controller with improved PC Controls** Everything you'd otherwise need a wireless
-   keyboard for, done from the pad already in your hands. Mouse and keyboard controls, media controls like volume, Alt+Tab. Recreates the Steam Controller's default desktop bindings on every controller.
-6. - **For those edge cases where your controller does nothing outside Steam.**
-  Steam Input only helps inside Steam; this doesn't care. By translating any pad into a virtual Xbox 360 controller everything can be played, non-Steam games, Launchers, emulators. all while being lower latency than projects like SISR and VIIPER
+1. Easier to use. Steam Input is enormously powerful and enormously fiddly. Here the settings sit on one page, in plain words.
+2. A home for experiments. Trackpad gestures, gyro typing, swipe typing, Stream Deck–style virtual menus, pinch-to-zoom, timeline scrubbing — features Valve would never ship.
+3. Your living-room setup, sorted. Steam launch and Big Picture automation, console-like power management, display/audio switching, HDR and Night Light control, media pause, cursor hiding — insane quality-of-life for couch gaming.
+4. Turns any gamepad into a Steam Controller. Recreates its default desktop bindings on every controller — mouse and keyboard control, media keys, Alt+Tab, all from the pad already in your hands.
+5. Works everywhere, not just in Steam. Any pad becomes a virtual Xbox 360 controller, so non-Steam games, launchers and emulators all just work — at lower latency than SISR or Viper.
 
 
 ---
@@ -90,27 +83,26 @@ optional input relay keeps the controller working there.
 
 ## Supported controllers
 
-Every pad below gets its own page in the GUI, with the right button labels and
-glyphs. **Steam Controllers and the Steam Deck** are driven by a dedicated HID
-takeover (trackpads, haptics, chords, full remap); everything else runs through
-SDL3.
+Every pad below gets its own page in the GUI, with the right button labels and glyphs.
 
-| Controller | Driver | Trackpads | Gyro |
-|---|:--:|:--:|:--:|
-| Steam Controller (2026) | HID | ✔ | ✔ |
-| Steam Controller (2015) | HID | ✔ | ✔ |
-| Steam Deck (built-in) | HID *(Windows)* | ✔ | ✔ |
-| Xbox Controller | SDL | | |
-| DualSense (PS5) | SDL | | ✔ |
-| DualShock 4 (PS4) | SDL | | ✔ |
-| Switch Pro Controller | SDL | | ✔ |
-| Switch 2 Pro Controller | SDL | | ✔ |
-| Joy-Con — as a pair, or each half alone | SDL | | ✔ |
-| Joy-Con 2 — as a pair, or each half alone | SDL | | ✔ |
-| ROG Ally · Legion Go · MSI Claw | SDL | | |
-| GPD Win · OneXPlayer · AYANEO | SDL | | |
-| 8BitDo controllers | SDL | | |
-| Any other SDL gamepad | SDL | | |
+<p align="center">
+  <img src="https://img.shields.io/badge/Steam%20Controller%20%282026%29-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Steam%20Controller%20%282015%29-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Steam%20Deck-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Xbox%20Controller-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/DualSense%20%28PS5%29-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/DualShock%204%20%28PS4%29-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Switch%20Pro%20Controller-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Switch%202%20Pro%20Controller-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Joy--Con-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Joy--Con%202-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/NSO%20SNES%20%2F%20NES%20%2F%20N64%20%2F%20Genesis-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/GameCube%20Controller-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/ROG%20Ally%20%C2%B7%20Legion%20Go%20%C2%B7%20MSI%20Claw-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/GPD%20Win%20%C2%B7%20OneXPlayer%20%C2%B7%20AYANEO-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/8BitDo%20controllers-0A7FB0?style=flat-square&labelColor=0A1A38">
+  <img src="https://img.shields.io/badge/Any%20other%20SDL%20gamepad-0A7FB0?style=flat-square&labelColor=0A1A38">
+</p>
 
 ---
 
