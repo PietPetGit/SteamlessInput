@@ -12,17 +12,16 @@
 
 # SteamlessInput
 
-An open-source, "easier" to use Steam Input that turns any gamepad into a Steam Controller with improved PC Controls, Virtual Keyboard, Trackpad Gestures, and customizable Virtual Menus without Steam running! Plus tools to configure Steam & Big Picture for couch-console gaming.
+An open-source, "easier" to use Steam Input that turns any gamepad into a Steam Controller with improved PC Controls, Virtual Keyboard, Trackpad Gestures, and customizable Virtual Menus for Windows without Steam running! Plus tools to configure Steam & Big Picture for couch-console gaming.
 
-SteamlessInput is an open-source **platform to build and add controller
-features on** for windows/linux desktop, productivity and in game control.
-it runs as a small tray app with no Steam client, no game library and no account required.
+SteamlessInput is an open-source **platform to build and add controller features on**.
+It's not meant to replace Steam Input — it's focused on desktop navigation and works as a companion app alongside Steam.
 
 Some things it's trying to be:
 
-1. Easier to use. Steam Input is enormously powerful and enormously fiddly. Here the settings sit on one page, in plain words.
-2. A home for experiments. Trackpad gestures, gyro typing, swipe typing, Stream Deck–style virtual menus, pinch-to-zoom, timeline scrubbing — features Valve would never ship.
-3. Your living-room setup, sorted. Steam launch and Big Picture automation, console-like power management, display/audio switching, HDR and Night Light control, media pause, cursor hiding — insane quality-of-life for couch gaming.
+1. Easier to use. Steam Input is enormously powerful and enormously fiddly. Here the settings sit on one page, in plain words. 
+2. A home for experiments. Trackpad gestures, gyro typing, swipe typing, pinch-to-zoom, timeline scrubbing — features Valve would never ship.
+3. Living-room couch gaming, Steam & Big Picture launch options, console-like power management, display/audio switching, HDR and Night Light control, media pause, cursor hiding.
 4. Turns any gamepad into a Steam Controller. Recreates its default desktop bindings on every controller — mouse and keyboard control, media keys, Alt+Tab, all from the pad already in your hands.
 5. Works everywhere, not just in Steam. Any pad becomes a virtual Xbox 360 controller, so non-Steam games, launchers and emulators all just work — at lower latency than SISR or Viper.
 
