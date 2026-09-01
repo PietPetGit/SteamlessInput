@@ -14,21 +14,20 @@
 
 An open-source, Steam Input recreation that turns any gamepad into a Steam Controller with improved PC Controls, Virtual Keyboard, Trackpad Gestures, and customizable Virtual Menus for Windows without Steam running! Plus tools to configure Steam & Big Picture for couch-console gaming.
 
-SteamlessInput is a platform to build and improve controller features on, addressing gaps Steam Input leaves behind. It's not meant to replace Steam Input — it's focused on desktop navigation and works as a companion app alongside Steam.
+SteamlessInput is a platform for building and improving controller features. It fills the gaps Steam Input leaves behind — especially around desktop navigation. It's a companion to Steam, not a replacement.
 
 Some things it's trying to be:
 
-**1. Turns any gamepad into a Steam Controller.**
-Recreates SteamInput default desktop bindings (mouse, keyboard, media playback control) on any pad, plus Steam Input parity features — button remapping, advanced presses (long/double press, soft pull, mode shift), hotkey chords, and community config imports from SteamInputDB. An optional input relay keeps your controller working even in elevated windows (Task Manager, installers, UAC prompts) — something Steam Input can't do. So you never lose control when Steam closes, and never have to grab that wireless keyboard again.
+1. Turns any gamepad into a Steam Controller.
+Full Steam Input parity — desktop mouse/keyboard/media bindings, button remapping, advanced presses (long/double press, soft pull, mode shift), hotkey chords, and community configs from SteamInputDB. An input relay even works in elevated windows (Task Manager, installers, UAC prompts) — something Steam Input can't do.
 
-**2. A home for experiments.**
+2. A home for experiments.
 Adds new features to Steam Controller & DualSense: trackpad gestures (smooth scrolling, tap to click, pinch to zoom, swipe between pages, text wheel selection, timeline scrubbing), an on-screen keyboard with multiple layouts and input methods (gyro typing, swipe typing, touch), and custom skins.
 
-**3. Living-room couch gaming.**
-Companion app for Steam & Big Picture launch options and account settings, console-like power management (Sleep Manager), display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard.
+3. Living-room couch gaming.
+Companion app for Steam & Big Picture launch options and account settings, Sleep Manager for console-like power management, display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard.
 
-**4. Exposes a virtual Xbox 360 controller** so non-Steam games, launchers, and emulators just work.
-
+4. Exposes a virtual Xbox 360 controller so non-Steam games, launchers, and emulators just work.
 
 
 ---
