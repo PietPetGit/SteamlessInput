@@ -132,12 +132,8 @@ SteamlessInput is an independent, unofficial, open-source project released
 under the [MIT licence](LICENSE). It is **not affiliated with, endorsed by, or
 sponsored by Valve Corporation**. "Steam", "Steam Deck", "Steam Controller" and
 "Steam Input" are trademarks of Valve Corporation, referenced here purely in a
-nominative, descriptive sense — to identify the hardware and software this
-tool interoperates with — and no sponsorship or approval by Valve is implied.
-
-This project does not modify, redistribute, or bypass any protection on Steam
-client binaries; it drives the Steam Controller's standard HID interface
-directly, the same class of interaction as any third-party controller utility.
+nominative, descriptive sense to identify the hardware and software this
+tool interoperates with.
 
 Some bundled interface artwork originates from the Steam client and remains
 the property of Valve Corporation; it is used here for interoperability
@@ -145,12 +141,3 @@ purposes only and is not covered by this project's licence. See
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for full attribution. If you
 are a rights holder and have concerns about any included asset, please open an
 issue and it will be addressed promptly.
-
-The software is provided **"as is", without warranty of any kind**, express or
-implied — see the [LICENSE](LICENSE) for the full terms. Use it at your own
-risk, particularly with hardware you care about.
-
-The Windows executable is **not code-signed**, so SmartScreen will likely warn
-on first run ("Windows protected your PC" → *More info* → *Run anyway*). This
-is expected for an unsigned independent release, not a sign of malware —
-build it yourself from source if you would rather not trust the binary.
