@@ -120,10 +120,9 @@ If I saved you buying a wireless keyboard, or made your setup better:
 - On-screen keyboard base built by me, with significant features and improvements merged in from [Mateusz Kłysz's DualTouch](https://github.com/mateuszklysz/dualtouch). Many thanks to Mateusz for his hard work.
 - Virtual gamepad driver by [Nefarius/ViGEmBus](https://github.com/nefarius/ViGEmBus)
 - Live controller preview ported from [Ramonchi_5's Steam Controller Gamepad Viewer](https://github.com/ramonchi5/Steam-Controller-Gamepad-Viewer-by-Ramonchi_5)
-- Big Picture automation (Options → Big Picture) builds on three open-source projects
-  - Night Light control and Big Picture window detection ported from **BigPictureManager** by magrega 
+- Big Picture automation
+  - Night Light control and Big Picture window detection ported from [magrega/BigPictureManager](https://github.com/magrega/BigPictureManager)
   - Linux controller-connect auto open/close ported from [goatvisuals/Auto-Big-Picture](https://github.com/goatvisuals/Auto-Big-Picture)
-  - Cursor hiding ported from **Big Picture Portal**'s `cursor.go` (blank system cursors with a move-to-reveal poll) 
 
 ---
 
