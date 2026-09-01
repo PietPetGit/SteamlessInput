@@ -14,7 +14,7 @@
 
 An open-source, Steam Input recreation that turns any gamepad into a Steam Controller with improved PC Controls, Virtual Keyboard, Trackpad Gestures, and customizable Virtual Menus for Windows without Steam running! Plus Steam & Big Picture launch options and tools to turn Windows into a console.
 
-SteamlessInput is a platform for building and improving controller features. It fills the gaps Steam Input leaves behind especially around desktop navigation. It's a companion to Steam, not a replacement.
+SteamlessInput is a platform for building and improving controller features. It fills the gaps Steam Input leaves behind especially around desktop navigation. It's a companion to Steam, not a replacement. Got an idea for something your controller should do on desktop? Open an issue and describe it. Code contributions are welcome too.
 
 Some things it's trying to be:
 
@@ -77,8 +77,6 @@ Steam Input has the same problem. This optional input relay keeps the controller
 
 ## Supported controllers
 
-Every pad below gets its own page in the GUI, with the right button labels and glyphs.
-
 <p align="center">
   <img src="https://img.shields.io/badge/Steam%20Controller%20%282026%29-0A7FB0?style=flat-square&labelColor=0A1A38">
   <img src="https://img.shields.io/badge/Steam%20Controller%20%282015%29-0A7FB0?style=flat-square&labelColor=0A1A38">
@@ -130,16 +128,13 @@ These are the defaults — every one of them is rebindable in the GUI.
 
 ## Support the project
 
-This is a one-person, unpaid project that already tries to do a lot at once. If
-it saved you buying a wireless keyboard, or made your living-room PC usable:
+If I saved you buying a wireless keyboard, or made your setup better:
 
 - ⭐ **Star the repo.** It's free, and it's the single thing that most helps
   other people find this.
 - 💸 **Donate, or leave a tip** I'm a frugal person, so I promise
   no penny goes to waste
-- 🛠 **Pay me to add a feature.** Want something specific built, or your
-  controller supported? Sponsor it and I'll prioritise it — open an issue
-  describing what you want and we'll talk.
+- 🛠 **Pay me to add a feature.** Want something specific built? DM me or open an issue and we'll talk.
 
 <!-- TODO: replace these with your real donation links before publishing -->
 [**Donate / tip**](https://ko-fi.com/YOUR-USERNAME) · [**Sponsor**](https://github.com/sponsors/YOUR-USERNAME)
