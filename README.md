@@ -14,7 +14,7 @@
 
 An open-source, Steam Input recreation that turns any gamepad into a Steam Controller with improved PC Controls, Virtual Keyboard, Trackpad Gestures, and customizable Virtual Menus for Windows without Steam running! Plus Steam & Big Picture launch options and tools to turn Windows into a console.
 
-SteamlessInput is a platform for building and improving controller features. It fills the gaps Steam Input leaves behind especially around desktop navigation. It's a companion to Steam, not a replacement. Got an idea for something your controller should do on desktop? Open an issue and describe it. Code contributions are welcome too.
+SteamlessInput is a platform for building and improving controller features. It fills the gaps Steam Input leaves behind especially around desktop navigation. It's a companion to Steam, not a replacement. Got an idea for something your controller should do? Open an issue and describe it. Code contributions are welcome too.
 
 Some things it's trying to be:
 
@@ -134,25 +134,7 @@ If I saved you buying a wireless keyboard, or made your setup better:
   other people find this.
 - 💸 **Donate, or leave a tip** I'm a frugal person, so I promise
   no penny goes to waste
-- 🛠 **Pay me to add a feature.** Want something specific built? DM me or open an issue and we'll talk.
-
-<!-- TODO: replace these with your real donation links before publishing -->
-[**Donate / tip**](https://ko-fi.com/YOUR-USERNAME) · [**Sponsor**](https://github.com/sponsors/YOUR-USERNAME)
-
-## Help wanted — bring ideas
-
-The point of this project is to be a **place to try controller ideas Steam
-wouldn't ship**. If you've ever thought *"my controller should be able to do X on
-the desktop"*, this is where X gets built.
-
-I'm especially looking for people with **creative ideas** — you don't have to
-write any code. Open an issue and describe it:
-
-- New trackpad, gyro or motion gestures
-- Ways to make couch PC use less painful
-- Anything Steam Input can't or won't do
-
-Code contributions are welcome too.
+- 🛠 **Pay me to add a feature.** Want something big built? DM me or open an issue and we'll talk.
 
 ---
 
