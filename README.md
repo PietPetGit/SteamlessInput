@@ -25,7 +25,7 @@ desktop mouse/keyboard/media bindings, button remapping, and community configs i
 Adds new features to Steam Controller & DualSense: trackpad gestures (laptop scrolling, pinch to zoom, swipe between pages, text wheel selection, timeline scrubbing), Added gyro typing to the on-screen keyboard — alongside swipe typing, multiple layouts, and custom keyboard skins.
 
 3. Living-room couch gaming.
-Turn windows into a console with Steam & Big Picture launch options and account settings, Sleep Manager power management, display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard to log into windows.
+Turn windows into a console with handy Steam & Big Picture launch options, Sleep Manager, Power Management, display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard to log into windows.
 
 4. Covers the edge cases Steam Input misses. Translates any controller to a virtual Xbox 360 controller so non-Steam games, launchers, and emulators just work.
 
