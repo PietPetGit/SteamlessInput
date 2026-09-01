@@ -14,7 +14,7 @@
 
 An open-source, Steam Input recreation that turns any gamepad into a Steam Controller with improved PC Controls, Virtual Keyboard, Trackpad Gestures, and customizable Virtual Menus for Windows without Steam running! Plus tools to configure Steam & Big Picture for couch-console gaming.
 
-SteamlessInput is an open-source **platform to build and add controller features on**.
+SteamlessInput is an **platform to build and improve controller features on**.
 It's not meant to replace Steam Input — it's focused on desktop navigation and works as a companion app alongside Steam.
 
 Some things it's trying to be:
