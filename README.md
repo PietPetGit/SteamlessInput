@@ -18,9 +18,16 @@ SteamlessInput is a platform to build and improve controller features on, addres
 
 Some things it's trying to be:
 
-1. Turns any gamepad into a Steam Controller — everywhere, not just in Steam. Recreates its default desktop bindings (mouse and keyboard control, media keys, Alt+Tab) on any pad, and exposes a virtual Xbox 360 controller so non-Steam games, launchers, and emulators just work — at lower latency than SISR or Viper.
-2. A home for experiments. Adds NEW features to the steam controller & Dual shock controller like Trackpad gestures, gyro typing, swipe typing, pinch-to-zoom, timeline scrubbing. 
-3. Living-room couch gaming, Steam & Big Picture launch options, console-like power management, display/audio switching, HDR and Night Light control, media pause, cursor hiding.
+**1. Turns any gamepad into a Steam Controller.**
+Recreates SteamInput default desktop bindings (mouse, keyboard, media playback control) on any pad, plus Steam Input parity features — button remapping, advanced presses (long/double press, soft pull, mode shift), hotkey chords, and community config imports from SteamInputDB. An optional input relay keeps your controller working even in elevated windows (Task Manager, installers, UAC prompts) — something Steam Input can't do. So you never lose control when Steam closes, and never have to grab that wireless keyboard again.
+
+**2. A home for experiments.**
+Adds new features to Steam Controller & DualSense: trackpad gestures (smooth scrolling, tap to click, pinch to zoom, swipe between pages, text wheel selection, timeline scrubbing), an on-screen keyboard with multiple layouts and input methods (gyro typing, swipe typing, touch), and custom skins.
+
+**3. Living-room couch gaming.**
+Companion app for Steam & Big Picture launch options and account settings, console-like power management (Sleep Manager), display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard.
+
+**4. Exposes a virtual Xbox 360 controller** so non-Steam games, launchers, and emulators just work.
 
 
 
