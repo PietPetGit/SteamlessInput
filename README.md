@@ -18,16 +18,15 @@ SteamlessInput is a platform for building and improving controller features. It 
 
 Some things it's trying to be:
 
-1. Turns any gamepad into a Steam Controller.
-Full Steam Input parity — desktop mouse/keyboard/media bindings, button remapping, advanced presses (long/double press, soft pull, mode shift), hotkey chords, and community configs from SteamInputDB. An input relay even works in elevated windows (Task Manager, installers, UAC prompts) — something Steam Input can't do.
+1. Full Steam Input parity — desktop mouse/keyboard/media bindings, button remapping, and community configs imports via SteamInputDB. Also fixes Steam Input's inability to interact with elevated windows (Task Manager, installers, UAC prompts) using an input relay.
 
 2. A home for experiments.
-Adds new features to Steam Controller & DualSense: trackpad gestures (smooth scrolling, tap to click, pinch to zoom, swipe between pages, text wheel selection, timeline scrubbing), an on-screen keyboard with multiple layouts and input methods (gyro typing, swipe typing, touch), and custom skins.
+Adds new features to Steam Controller & DualSense: trackpad gestures (smooth scrolling, tap to click, pinch to zoom, swipe between pages, text wheel selection, timeline scrubbing), an on-screen keyboard with multiple layouts and input methods (gyro typing, swipe typing, touch), and custom keyboard skins.
 
 3. Living-room couch gaming.
-Companion app for Steam & Big Picture launch options and account settings, Sleep Manager for console-like power management, display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard.
+Companion app for Steam & Big Picture launch options and account settings, Sleep Manager for console-like power management, display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard to log into windows.
 
-4. Exposes a virtual Xbox 360 controller so non-Steam games, launchers, and emulators just work.
+4. Translates all controllers to a virtual Xbox 360 controller so non-Steam games, launchers, and emulators just work.
 
 
 ---
