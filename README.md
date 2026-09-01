@@ -34,23 +34,17 @@ Turn windows into a console with handy Steam & Big Picture launch options, Sleep
 
 # Features
 
-## Core
-
-Turns any gamepad into a Steam Controller — mouse, keyboard and media playback
-control, with full button and stick remapping. Can also present the pad as an
-Xbox 360 controller.
-
 **SteamInput parity**
 
 - **Advanced Presses** — long press, double press, soft pull, mode shift
 - **Hotkey chords**
 - **Community Configs** — import from [SteamInputDB](https://www.steaminputdb.com)
-- **Virtual Menus** — folders and layers *(planned)*
+- **Virtual Menus** — streamdeck like folder and layers *(planned)*
 
 ## On-screen keyboard
 
 - **Layouts** — QWERTY, phone-style, 75% (F1-F12 and arrow keys), and split
-- **Input methods** — trackpad, stick, gyro, mouse or manual keyboard
+- **Input methods** — trackpad, stick, gyro, mouse
 - **Typing modes** — two-thumb simultaneous, swipe, touch, release-touch
 - **Gyro typing**
 - **Skins** — transparency and size control, including custom anime skins
@@ -68,20 +62,17 @@ Xbox 360 controller.
 
 ## Living-room automation
 
-*Companion app for Steam and Big Picture.*
-
 - Steam and Big Picture launch options, account settings
 - Display and audio output device switching
 - HDR and Night Light toggles
 - Media pause on launch, cursor hiding on launch
-- **Sleep Manager** — power settings
+- Sleep Manager power settings
 - Lock-screen keyboard
 
-## Elevated windows
+## Input Relay
 
-Elevated windows (Task Manager, installers, UAC prompts) freeze controller input
-and force you back to a mouse and keyboard. Steam Input has the same problem. An
-optional input relay keeps the controller working there.
+Fixes the inability to interact with elevated windows (Task Manager, installers, UAC prompts).
+Steam Input has the same problem. This optional input relay keeps the controller working there.
 
 
 ## Supported controllers
