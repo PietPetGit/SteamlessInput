@@ -117,7 +117,7 @@ If I saved you buying a wireless keyboard, or made your setup better:
 
 ## Credits
 
-- On-screen keyboard base built by me, with significant features and improvements merged in from [Mateusz Kłysz's DualTouch](https://github.com/mateuszklysz/dualtouch)
+- On-screen keyboard base built by me, with significant features and improvements merged in from [Mateusz Kłysz's DualTouch](https://github.com/mateuszklysz/dualtouch) Many thanks to Mateusz for his hard work.
 - Virtual gamepad driver by [Nefarius/ViGEmBus](https://github.com/nefarius/ViGEmBus)
 - Live controller preview ported from [Ramonchi_5's Steam Controller Gamepad Viewer](https://github.com/ramonchi5/Steam-Controller-Gamepad-Viewer-by-Ramonchi_5)
 - Big Picture automation (Options → Big Picture) builds on three open-source projects
