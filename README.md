@@ -27,7 +27,7 @@ Adds new features to Steam Controller & DualSense: trackpad gestures (laptop scr
 3. Living-room couch gaming.
 Turn windows into a console with Steam & Big Picture launch options and account settings, Sleep Manager power management, display/audio output switching, HDR and Night Light control, media pause and cursor hiding on launch, and a lock-screen keyboard to log into windows.
 
-4. Covers the edge cases Steam Input misses — translates any controller to a virtual Xbox 360 controller so non-Steam games, launchers, and emulators just work.
+4. Covers the edge cases Steam Input misses. Translates any controller to a virtual Xbox 360 controller so non-Steam games, launchers, and emulators just work.
 
 
 ---
